@@ -1,6 +1,5 @@
 package Factory_Method;
 
-
 import javax.xml.stream.FactoryConfigurationError;
 
 public class Main {
@@ -10,7 +9,6 @@ public class Main {
         System.out.println(nature);
     }
 
-    public static void main(String[] args){
+public static void main(String[] args){
         factory();
-    }
-}
+    }}
