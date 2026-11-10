@@ -12,6 +12,7 @@
 </head>
 <body>
     <h1>Page d'accueil</h1>
+
     <form action="login/" method="post">
         <input name="login" type="text">
         <input name="password" type="text">
