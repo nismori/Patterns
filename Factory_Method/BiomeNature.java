@@ -1,11 +1,11 @@
 package Factory_Method;
 
-public class BiomeNature extends Biome{
-    public BiomeNature(String type){
+public class BiomeNature extends Biome {
+    public BiomeNature(String type) {
         super(type);
     }
 
-    public Volatile newVolatile(){
-        return new RougeGorge("Petite merde");
+    public Volatile newVolatile() {
+        return new RougeGorge("Ca fait quel bruit un rouge gorge ?");
     }
 }

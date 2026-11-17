@@ -1,12 +1,12 @@
 package Decorateur;
 
-public class PizzaCreme extends Pizza{
-    public PizzaCreme(){
+public class PizzaCreme extends Pizza {
+    public PizzaCreme() {
         super();
     }
 
     @Override
-    public double getPrix(){
+    public double getPrix() {
         return 10;
     }
 }

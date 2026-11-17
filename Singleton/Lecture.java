@@ -1,7 +1,7 @@
 package Singleton;
 
 public class Lecture {
-    public void lire(){
+    public void lire() {
         System.out.println("Je lit...");
     }
 }

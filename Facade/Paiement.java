@@ -1,7 +1,7 @@
 package Facade;
 
 public class Paiement {
-    public String payer(){
+    public String payer() {
         return "Paiement en cours...";
     }
 }

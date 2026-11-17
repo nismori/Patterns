@@ -1,8 +1,9 @@
 package Strategie;
-import Strategie.Deplacement.*;
 
-public class Villageois extends Personnage{
-    public Villageois(){
+import Strategie.Deplacement.DeplacementVillageois;
+
+public class Villageois extends Personnage {
+    public Villageois() {
         this.setDeplacement(new DeplacementVillageois());
     }
 }

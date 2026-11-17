@@ -1,9 +1,9 @@
 package Decorateur;
 
-public abstract class LeTrucEnPlus extends Pizza{
+public abstract class LeTrucEnPlus extends Pizza {
     protected Pizza basePizza;
 
-    public LeTrucEnPlus(Pizza p){
+    public LeTrucEnPlus(Pizza p) {
         this.basePizza = p;
     }
 

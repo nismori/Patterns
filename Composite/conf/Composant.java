@@ -1,6 +1,6 @@
 package Composite.conf;
 
-public class Composant implements Conf{ // une pièce élémentaire
+public class Composant implements Conf { // une pièce élémentaire
     private String libelle;
     private double prixHT;
     private double poidsKg;

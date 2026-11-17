@@ -1,6 +1,6 @@
 package Factory_Method;
 
-public abstract class Aeronef implements Volatile{
+public abstract class Aeronef implements Volatile {
     @Override
     public void voler() {
         System.out.println("L'aeronef vole");
@@ -17,6 +17,6 @@ public abstract class Aeronef implements Volatile{
     }
 
     public void fairePlein() {
-        System.out.println("MACRON!!!");
+        System.out.println("Le prix du litre...");
     }
 }

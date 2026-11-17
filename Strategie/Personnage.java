@@ -1,5 +1,6 @@
 package Strategie;
-import Strategie.Deplacement.*;
+
+import Strategie.Deplacement.Deplacement;
 
 public abstract class Personnage {
     private int pv;
@@ -7,24 +8,24 @@ public abstract class Personnage {
     private String nom;
     private Deplacement monDeplacement;
 
-    public void attaquer(){
+    public void attaquer() {
         System.out.println("Prend ça !");
     }
 
-    public void deplacer(){
+    public void deplacer() {
         this.monDeplacement.faire();
     }
 
-    public void mourir(){
-        if(pv == 0)
+    public void mourir() {
+        if (pv == 0)
             System.out.println("Je suis mort...");
     }
 
-    public void manger(){
+    public void manger() {
         System.out.println("Miam miam");
     }
 
-    public void setDeplacement(Deplacement deplacement){
+    public void setDeplacement(Deplacement deplacement) {
         this.monDeplacement = deplacement;
     }
 }

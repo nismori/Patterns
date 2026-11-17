@@ -1,7 +1,7 @@
 package Decorateur;
 
 public class Main {
-    static void main(String[] args){
+    static void main(String[] args) {
         Pizza p = new PizzaTomate();
         p = new Burrata(p);
         p = new Oignon(p);

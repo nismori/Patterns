@@ -1,21 +1,18 @@
 package Fabrique_Abstraite.edition;
 
 import Fabrique_Abstraite.FabriqueEdition;
-import Fabrique_Abstraite.Facture;
-import Fabrique_Abstraite.MentionLegale;
-import Fabrique_Abstraite.conf.Conf;
-import Fabrique_Abstraite.facture.*;
-import Fabrique_Abstraite.mention_legale.*;
+import Fabrique_Abstraite.facture.FactureFR;
+import Fabrique_Abstraite.mention_legale.RGBD;
 
 public class EditionFR implements FabriqueEdition {
-    public EditionFR(){
+    public EditionFR() {
     }
 
-    public FactureFR createFacture(){
+    public FactureFR createFacture() {
         return new FactureFR();
     }
 
-    public RGBD createMentionLegale(){
+    public RGBD createMentionLegale() {
         return new RGBD();
     }
 }

@@ -11,13 +11,14 @@ public class Lot implements Conf {  // un sous-ensemble assemblé
 
 
     public Lot(String libelle) {
-        this.libelle = libelle; }
+        this.libelle = libelle;
+    }
     //public Lot ajouter(Object o) { elements.add(o); return this; }
     //public List<Object> getElements(){return this.elements;}
 
-    public double getPrixHT(){
+    public double getPrixHT() {
         double somme = 0;
-        for(Conf c : elements)
+        for (Conf c : elements)
             somme += c.getPrixHT();
         return somme;
     }
@@ -26,7 +27,7 @@ public class Lot implements Conf {  // un sous-ensemble assemblé
         return libelle;
     }
 
-    public Lot ajouter(Conf conf){
+    public Lot ajouter(Conf conf) {
         elements.add(conf);
         return this;
     }

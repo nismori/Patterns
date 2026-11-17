@@ -4,7 +4,7 @@ import Fabrique_Abstraite.MentionLegale;
 import Fabrique_Abstraite.conf.Conf;
 
 public class MentionQc implements MentionLegale {
-    public void afficher(Conf conf){
+    public void afficher(Conf conf) {
         System.out.println("Ceci est une loi quebecoise.");
     }
 }

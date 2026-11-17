@@ -1,5 +1,7 @@
 package Strategie;
-import Strategie.Deplacement.*;
+
+import Strategie.Deplacement.DeplacementChevalier;
+import Strategie.Deplacement.DeplacementVillageois;
 
 public class Main {
     public static void main(String[] args) {

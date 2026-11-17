@@ -19,4 +19,9 @@ public abstract class Oiseau implements Volatile {
     public void picorer() {
         System.out.println("L'oiseau picore");
     }
+
+    @Override
+    public String toString(){
+        return "Je suis un oiseau";
+    }
 }
