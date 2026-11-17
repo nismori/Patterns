@@ -11,6 +11,10 @@ public class SuperClasse {
     }
 
     public void show() {
+        if(listeDo.isEmpty()) {
+            System.out.println("Il n'y a rien à afficher");
+            return;
+        }
         for (Observateur d : listeDo) {
             d.execute();
         }
